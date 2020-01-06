@@ -1,5 +1,5 @@
 # Experimenting with Angular8 and Google Firebase environment
-Google firebase cloud API was very fun to integrate. You need to install/declare Firebase module, set the config credentials at enviroments folder and inject the desired methods (firebase) on the Angular components. The document oriented database is pretty much like mongodb or dynamodb. Next steps would be experiment and integrate the auth methods
+Google firebase cloud API was very fun to integrate. You need to install/declare Firebase store module, by doing so, you will set the config credentials needed to start the Firemodule at enviroments folder. After setting the main module and the AngularFirestoreModule you can inject the desired methods (firebase store API) on the Angular components. The document oriented database is pretty much like mongodb or dynamodb. Next steps: experiment and integrate the Firebase auth system methods
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
